@@ -9,7 +9,7 @@ We would wanted to be able to help others gather information and be able to requ
 
 
 ## Code style
-A working full-stack application, built by us, using the MERN stack: **Mongoose, Express, React, and Node.js, EJS and full CRUD**.
+A working full-stack application, built by us, using the MERN stack: **Mongoose, Express, React, and Node.js and full CRUD**.
 
 ## Deployed on:
 Heroku
@@ -28,7 +28,7 @@ https://asis-me.herokuapp.com/
 - [Express](https://expressjs.com/)
 - [React](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
-- [EJS](https://ejs.co/)
+
 
 
 ## Features
