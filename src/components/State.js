@@ -7,7 +7,7 @@ const Url = " https://covidtracking.com/api/states?hash="
 let baseURL = process.env.REACT_APP_BASEURL
 
 if (process.env.NODE_ENV === "development") {
-    baseURL = ""
+    baseURL = "http://localhost:3003"
 } else {
     baseURL = "https://asisme-backend.herokuapp.com"
 }
