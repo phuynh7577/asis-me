@@ -12,7 +12,7 @@ We would wanted to be able to help others gather information and be able to requ
 A working full-stack application, built by us, using the MERN stack: **Mongoose, Express, React, and Node.js and full CRUD**.
 
 ## Link to Back-End
-https://github.com/leeanneahammond/project_three
+https://github.com/leeanneahammond/project_three_backend
 
 ## Deployed on:
 Heroku
