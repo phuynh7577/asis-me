@@ -14,6 +14,7 @@ class Form extends React.Component {
     }
     
     componentDidMount() {
+        this._isMounted = true;
         fetch("https://covidtracking.com/api/states")
             .then(res => res.json())
             .then(data => {
@@ -66,6 +67,8 @@ class Form extends React.Component {
     handleChange = (event) => {
         this.setState({ [event.target.id]: event.target.value})
       }
+
+      
 
     render() {
         return(

@@ -8,8 +8,6 @@ class StateMap extends React.Component {
     }
 
     statesCustomConfig = () => {
-
-        console.log(this.state.info)
         return {
           "NJ": {
             fill: "#ee3e32",

@@ -2,7 +2,7 @@ import React from "react"
 import Form from "./Form"
 
 
-const Url = " https://asisme-backend.herokuapp.com"
+const Url = " https://covidtracking.com/api/states?hash="
 
 let baseURL = process.env.REACT_APP_BASEURL
 
@@ -113,9 +113,9 @@ class State extends React.Component {
 
 
     render(){
-        // console.log("requests", this.requests)
-        // console.log("state", this.state)
-        // console.log("props", this.props)
+        console.log("requests", this.requests)
+        console.log("state", this.state)
+        console.log("props", this.props)
         return(
             <div className="StatePage">
                 <Form
