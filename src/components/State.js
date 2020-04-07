@@ -7,9 +7,9 @@ const Url = " https://covidtracking.com/api/states?hash="
 let baseURL = process.env.REACT_APP_BASEURL
 
 if (process.env.NODE_ENV === "development") {
-    baseURL = " https://asisme-backend.herokuapp.com"
-} else {
     baseURL = ""
+} else {
+    baseURL = "https://asisme-backend.herokuapp.com"
 }
 
 console.log("current base URL: " + baseURL)
@@ -50,7 +50,6 @@ class State extends React.Component {
             
             this.getRequest();
     }
-
 
      //show
   getRequest = requests => {
