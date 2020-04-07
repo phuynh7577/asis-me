@@ -1,7 +1,7 @@
 
 
 
-## Asis-Me
+## Asis-Me Front-End
 User will be able to see statistics for COVID-19 by clicking on **their** state. They can ask/send assistance from display page.
 
 ## Motivation
@@ -20,12 +20,6 @@ https://asis-me.herokuapp.com/
 
 ### Trello:
 https://trello.com/b/SS0ZiVXG/project-3-mern-stack-assisme
-
- 
-## Screenshots
-![Clickable States](public/asismeSS3.png)
-![Clickable States](public/asismeSS2.png)
-![Input Form](public/asismeSS1.png)
 
 ## Tech/framework used
 
@@ -53,4 +47,9 @@ We used [COVID Tracking](https://covidtracking.com/api/states)
 - Chris Murphy -- Product Manager </br>
 - Leeanne Hammond --> Release Manager </br>
 - Nancy --> Back End Manager </br>
+
+## Screenshots
+![Clickable States](public/asismeSS3.png)
+![Clickable States](public/asismeSS2.png)
+![Input Form](public/asismeSS1.png)
 
