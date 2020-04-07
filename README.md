@@ -11,9 +11,15 @@ We would wanted to be able to help others gather information and be able to requ
 ## Code style
 A working full-stack application, built by us, using the MERN stack: **Mongoose, Express, React, and Node.js and full CRUD**.
 
+## Link to Back-End
+https://github.com/leeanneahammond/project_three
+
 ## Deployed on:
 Heroku
 https://asis-me.herokuapp.com/
+
+### Trello:
+https://trello.com/b/SS0ZiVXG/project-3-mern-stack-assisme
 
  
 ## Screenshots
