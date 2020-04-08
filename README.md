@@ -44,7 +44,7 @@ We used [COVID Tracking](https://covidtracking.com/api/states)
 
 ## Credits
 - Phil Huynh --> Front End Manager </br>
-- Chris Murphy -- Product Manager </br>
+- Chris Murphy --> Product Manager </br>
 - Leeanne Hammond --> Release Manager </br>
 - Nancy --> Back End Manager </br>
 
