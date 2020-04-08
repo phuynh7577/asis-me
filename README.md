@@ -16,6 +16,7 @@ https://github.com/leeanneahammond/project_three_backend
 
 ## Deployed on:
 Heroku
+heroku create asis-me --buildpack mars/create-react-app
 https://asis-me.herokuapp.com/
 
 ### Trello:
@@ -43,10 +44,10 @@ Clone and then **npm i** to install new modlules.
 We used [COVID Tracking](https://covidtracking.com/api/states)
 
 ## Credits
-- Phil Huynh --> Front End Manager </br>
+- Phil Huynh --> Front End Lead </br>
 - Chris Murphy --> Product Manager </br>
 - Leeanne Hammond --> Release Manager </br>
-- Nancy --> Back End Manager </br>
+- Nancy --> Back End Lead </br>
 
 ## Screenshots
 ![Clickable States](public/asismeSS3.png)
