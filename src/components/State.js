@@ -2,8 +2,6 @@ import React from "react"
 import Form from "./Form"
 
 
-const Url = " https://covidtracking.com/api/states?hash="
-
 let baseURL = process.env.REACT_APP_BASEURL
 
 if (process.env.NODE_ENV === "development") {
@@ -38,7 +36,7 @@ class State extends React.Component {
     componentDidMount = () => {
         console.log(this.props.location.state.info)
         const hash = this.props.location.state.info
-        fetch(Url+hash)
+        fetch(`https://covidtracking.com/api/v1/states/${hash}/current.json`)
             .then(res => res.json())
             .then(data => {
                 this.setState({

@@ -15,7 +15,7 @@ class Form extends React.Component {
     
     componentDidMount() {
         this._isMounted = true;
-        fetch("https://covidtracking.com/api/states")
+        fetch(`https://covidtracking.com/api/v1/states/current.json`)
             .then(res => res.json())
             .then(data => {
                 this.setState({
