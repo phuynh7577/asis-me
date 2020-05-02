@@ -191,7 +191,7 @@ class StateMap extends React.Component {
     mapHandler = (event) => {
         this.state.info.forEach(statePicked => {
             if(event.target.dataset.name === statePicked.states){
-                this.setState({stateHash: statePicked.hash,redirect: true})
+                this.setState({states: statePicked.states,redirect: true})
             }
         })
       };
