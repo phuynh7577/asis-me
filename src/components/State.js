@@ -110,8 +110,8 @@ class State extends React.Component {
 
 
     render(){
-        console.log("requests", this.requests)
-        console.log("state", this.state)
+        // console.log("requests", this.requests)
+        // console.log("state", this.state)
         console.log("props", this.props)
         return(
             <div className="StatePage">
