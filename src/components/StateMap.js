@@ -200,7 +200,7 @@ class StateMap extends React.Component {
 
       renderRedirect = () => {
         if (this.state.redirect) {
-          return <Redirect push to={{pathname: `/state/${this.state.stateHash}`, state: {info: this.state.stateHash}}} />
+          return <Redirect push to={{pathname: `/state/${this.state.states}`, state: {info: this.state.states}}} />
         }
     }
       
