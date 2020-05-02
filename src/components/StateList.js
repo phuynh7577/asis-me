@@ -9,7 +9,7 @@ const StateList = props => (
      <ul >
         {props.info.map(info => (
                 <li key={info.states}>
-                    <Link to={{pathname: `/state/${info.hash}`, state: {info: info.hash}}}>{info.states}</Link>
+                    <Link to={{pathname: `/state/${info.state}`, state: {info: info.state}}}>{info.states}</Link>
                 </li> 
             ))}  
         </ul> 
