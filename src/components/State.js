@@ -5,7 +5,7 @@ import Form from "./Form"
 let baseURL = process.env.REACT_APP_BASEURL
 
 if (process.env.NODE_ENV === "development") {
-    baseURL = "http://localhost:3003"
+    baseURL = "https://asisme-backend.herokuapp.com"
 } else {
     baseURL = "https://asisme-backend.herokuapp.com"
 }
@@ -35,7 +35,7 @@ class State extends React.Component {
 //lifecycle method
     componentDidMount = () => {
         console.log(this.props.location.state.info)
-        const hash = this.props.location.state.info
+        const hash = this.props.location.state.info.toLowerCase()
         fetch(`https://covidtracking.com/api/v1/states/${hash}/current.json`)
             .then(res => res.json())
             .then(data => {
